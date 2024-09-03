@@ -1,0 +1,61 @@
+.app-container {
+  background-color: #161624;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  color: white;
+  padding: 10px 75px;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.countries-list-ul-container {
+  padding: 0;
+  height: 265px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.visited-countries-ul-container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.visited-countries-li-container {
+  list-style-type: none;
+  width: 32%;
+  margin-bottom: 20px;
+  background-color: #1f1f2f;
+}
+
+.country-img {
+  width: 100%;
+}
+
+.country-name-and-remove-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.remove-btn-container button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 6px 20px;
+}
+
+.remove-btn-container button:hover {
+  transform: scale(1.02);
+}
+
+.remove-btn-container button:active {
+  transform: scale(0.96);
+}
